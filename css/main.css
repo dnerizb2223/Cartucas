@@ -1,0 +1,293 @@
+body{
+    background-image: url(../img/portada.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo{
+    background-image: url("../img/logo.jpg");
+    width: 124px;
+    height: 49px;
+}
+
+#portada{
+    background-image: url("../img/portada.png");
+    width: 124px;
+    height: 49px;
+}
+
+.navbar-padding{
+    padding-bottom: 0px !important;
+}
+
+.navbar-color{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-toggler-custom{
+    background-color: white !important;
+}
+
+.btn-positions{
+    padding-bottom: 10px;
+}
+
+.btn-positions button{
+    background-color: white;
+}
+
+.btn-positions button.modificar{
+    border-color: blue;
+}
+
+.btn-positions button.borrar{
+    border-color: red;
+}
+
+.card-footer button{
+    padding: 0;
+}
+
+.card-footer .far{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.card-body.color-fondo{
+    padding-top: 0px;
+    text-align: left;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-bottom: 0;
+}
+
+.card-body tr{
+    background-color: #f2eded;
+}
+
+
+.titulo{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+}
+
+.card-body .descripcion{
+    font-size: 12px;
+}
+
+.card .table-mana{
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0;
+    display: none;
+}
+
+.card .table-mana td{
+    padding: 0;
+}
+
+.card .table-mana.view-mana-mobile{
+    display: block;
+}
+
+.view-mana-desktop{
+    display: none;
+}
+
+.border-footer{
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    padding-bottom: 0px;
+    /* background-color: black; */
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    border: none;
+}
+
+.border-footer .fa-text{
+    font-size: 11px;
+}
+
+.badges-title{
+    font-weight: 700;
+    font-size: 9px;
+    color: white;
+}
+
+.badges-text{
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.badges-mana{
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.num-mana{
+    width: 50px;
+    display: inline;
+}
+
+.lbl-tipo-mana{
+    display: block;
+}
+
+.azul{
+    background-color: blue !important;
+}
+.blanco{
+    background-color: white !important;
+    color: black !important;
+}
+.incoloro{
+    background-color: #f2eded !important;
+    color: black !important;
+}
+.negro{
+    background-color:black !important;
+    color: white !important;
+}
+.rojo{
+    background-color:red !important;
+    color: white !important;
+}
+.verde{
+    background-color:green !important;
+    color: white !important;
+}
+
+.btn-cancel{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.lbl-ataque{
+    display: inline;
+}
+
+.badges-ataque{
+    font-size: 9px;
+    background-color: gold !important;
+    color: black !important;
+}
+
+.float-left{
+    float: left;
+    margin-right: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.margin-top-cards{
+    margin-top: 35px;
+}
+
+.margin-top-mobile-cards{
+    margin-top: 65px;
+}
+
+.alert-dismissible{
+    margin-top: 50px;
+}
+
+/* .img-thumbnail.create{
+    display: none;
+} */
+
+.scene {
+    /* width: 120px;
+    height: 100px; */
+    margin: 40px 0;
+    perspective: 600px;
+    border-radius: 25px;
+  }
+  
+ .card.cards-list {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+    border-radius: 25px;
+  }
+  
+  .card.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+  }
+  
+  .card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 200%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+  }
+  
+  .card__face--front {
+    background: #C1C6C4;
+  }
+  
+  .card__face--back {
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    /* background-image: url(../img/cartaTrasera.png); */
+    background-color: black;
+  }
+
+  .btn-cancel{
+    width: 100%;
+  }
+
+  @media (min-width: 767px) {    
+    .card .table-mana {
+        display: inline-table;
+    }
+
+    .card .table-mana td{
+        text-align: left;
+    }
+
+    .card .table-mana.view-mana-mobile{
+        display: none;
+    }
+
+    .view-mana-desktop .badges-mana{
+        text-align: left;
+    }
+
+    .btn-cancel{
+        width: auto;
+    }
+  }
+
+  @media (min-width: 1420px) {
+    .badges-title {
+      font-size: 13px;
+    }
+
+    .badges-text,.badges-mana,.badges-ataque {
+        font-size: 11px;
+    }
+  }
